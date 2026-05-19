@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Indiara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+            <button id="theme-toggle">Tema Escuro</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="section">
+            <h1>Olá, eu sou a Indiara (Indi)</h1>
+            <p>Sou de Mesquita, RJ, atuo profissionalmente como Nail Designer e sou estudante de Data Science. Sou fascinada por organização, gestão de negócios e estruturação de rotinas em blocos de tempo. Nas horas vagas, recarrego minhas energias caminhando ao ar livre e me dedico à criação artística através do desenho digital e da pintura manual.</p>
+        </section>
+
+        <section id="formacao" class="section">
+            <h2>Minha Formação</h2>
+            <ul>
+                <li><strong>Data Science:</strong> Estudante em formação, desenvolvendo habilidades em SQL, NoSQL, MySQL, Machine Learning e Power BI.</li>
+                <li><strong>Nail Design:</strong> Especialização avançada na técnica de Molde F1.</li>
+                <li><strong>Mentoria:</strong> Participante ativa em mentoria focada no desenvolvimento de empreendedores e programadores.</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>Meu Portfólio</h2>
+            <div class="portfolio-grid">
+                <div class="projeto">
+                    <h3>Consultoria e Padronização de Atendimento</h3>
+                    <p>Desenvolvimento de um sistema padronizado de atendimento a clientes, incluindo a criação de um "cardápio" com templates sólidos e fixos de perguntas para estruturar o script de serviços.</p>
+                    <a href="https://github.com" target="_blank" class="repo-link">Visualizar Projeto no GitHub</a>
+                </div>
+                <div class="projeto">
+                    <h3>Implementação Tecnológica Comercial</h3>
+                    <p>Projeto de modernização e estruturação tecnológica para a loja dos meus pais, aplicando conhecimentos de gestão e sistemas de dados para alavancar os negócios familiares.</p>
+                    <a href="https://github.com" target="_blank" class="repo-link">Visualizar Projeto no GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
